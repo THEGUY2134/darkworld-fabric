@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "darkworld",
+  "version": "${version}",
+  "name": "Dark World",
+  "description": "Explore a mysterious card-themed Dark World, activate Dark Fountains, and challenge the Card King.",
+  "authors": ["THEGUY2134"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.theguy2134.darkworld.DarkWorldMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
